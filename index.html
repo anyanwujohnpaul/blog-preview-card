@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+
+    <!-- Tailwind CSS Play CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     <link
       rel="icon"
       type="image/png"
@@ -15,41 +17,53 @@
   </head>
   <body class="bg-amber-200">
     <main>
-      <div class="m-10 flex flex-col justify-center items-center overflow-x-hidden bg-white rounded-lg shadow-black py-7 px-10 pb-5">
-        <div>
-          <img class="mb-4 h-30 w-50 rounded-xl"
-            src="assets/images/illustration-article.svg"
-            alt=""
-          />
-        </div>
+      <div
+        class="mx-5 my-10 flex flex-col justify-center items-center overflow-x-hidden bg-white rounded-xl shadow-xl shadow-black py-7 px-7 pb-5"
+      >
+        <img
+          class="mb-4 w-60 rounded-lg"
+          src="assets/images/illustration-article.svg"
+          alt="Illustration Article Image"
+        />
 
-        <div class="mt-0">
-          <p class="inline-block text-lg px-3 py-2 rounded-md text-black bg-amber-100 font-bold mb-3">Learning</p>
+        <div class="mt-0 text-zinc-500">
+          <p
+            class="inline-block text-sm px-3 py-2 rounded-md text-black bg-amber-300 font-bold mb-3"
+          >
+            Learning
+          </p>
 
-          <p class="text-xs font-normal text-neutral-800 mb-3">Published 21 Dec 2023</p>
+          <p class="text-xs font-bold text-neutral-800 mb-3">
+            Published 21 Dec 2023
+          </p>
 
-          <h2 class="text-black hover:text-yellow-600 font-bold text-md justify-content mb-3">
+          <h2
+            class="text-black hover:text-yellow-600 font-bold text-md justify-content mb-3"
+          >
             HTML & CSS foundations
           </h2>
 
-          <p class="text-xs text-zinc-500 font-normal">
+          <!-- p:  -->
+          <p class="text-xs tracking-tight">
             These languages are the backbone of every website, defining
             structure, content, and presentation.
           </p>
-<div class="flex flex-row gap-2 items-center mt-4 text-left">
-             <img
+
+          <div class="flex flex-row gap-2 items-center mt-4 text-left">
+            <img
               class="size-8 rounded-md"
               src="assets/images/image-avatar.webp"
               alt=""
             />
-            <p class="text-md font-bold text-black">Greg Hooper</p>
-          </div> 
+
+            <p class="text-md font-figtree font-bold text-black">Greg Hooper</p>
+          </div>
         </div>
-        </div>
+      </div>
     </main>
 
     <!-- <footer
-      class="text-xs text-blue-500 font-small lg:font-bolder lg:text-2xl text-center"
+      class="text-xs text-blue-500 font-small:font-bolder lg:text-2xl text-center"
     >
       Challenge by
       <a
@@ -61,7 +75,7 @@
       Coded by
       <a class="text-amber-700" href="https://linktr.ee/thisisjaypee"
         >Johnpaul.</a
-      > -->
-    </footer>
+      >
+    </footer> -->
   </body>
 </html>
